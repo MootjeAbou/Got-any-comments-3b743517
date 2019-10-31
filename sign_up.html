@@ -4,6 +4,7 @@
 
 <head>
     <title>Bit aanmelding</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
@@ -123,10 +124,18 @@
  </span> </p>
     </note>
 
+    <label for="story"> Write a review here </label><br/>
+    <br/>
+    <textarea id="story" name="story"
+              rows="5" cols="33" placeholder="Comment text."></textarea>
+    </textarea>
+
+    <br><br>
     <label for="pin">PIN:</label>
     <input id="pin" type="password" inputmode="numeric" minlength="4"
            maxlength="4" size="4">
-
+    <br>
+    <br>
     <input type="submit" value="Send Request">
 
     <script src="script.js"></script>

@@ -1,0 +1,46 @@
+p { text-align: center
+}
+
+input {border-radius: 30px;
+}
+
+h1 { text-align: center
+}
+
+
+form { text-align: center
+}
+
+input,
+label {margin: .4rem 0;
+}
+
+nummer {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+nummer{
+    margin: .4rem 0;
+}
+
+red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+textarea{
+border: solid red;
+}
+
+textarea: hover, textarea: focus{
+border: solid green;
+}
+
+textarea{
+border: solid red;
+}
+
+textarea:hover, textarea:focus {
+border: solid green;
+}
